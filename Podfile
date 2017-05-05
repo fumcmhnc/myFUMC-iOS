@@ -7,4 +7,5 @@ target 'myFUMC' do
 
   # Pods for myFUMC
   pod 'FontAwesome.swift'
+  pod 'Firebase/Core'
 end
