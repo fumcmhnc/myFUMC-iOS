@@ -7,22 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C03CB07A1BF399CDE7CBB68DBAEE6B5 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = F42506C7C75E4B10CFB210B4292DA4E3 /* FontAwesome.otf */; };
-		1363CB92EFD814A9119D2EAA9F158EE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
+		0C03CB07A1BF399CDE7CBB68DBAEE6B5 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B33747E2D96219B5934730A07BD74DE /* FontAwesome.otf */; };
 		15064BE99B3392B5C279A026601D7DE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */; };
-		1859113A28D674DBA366EF81366330C0 /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F271F74D70350F46EA5346707A2474 /* FontAwesomeView.swift */; };
-		37B85F555A38364C44DB54684713A900 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB8DF1487534236349AFF43A3A406F9 /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C0B36CA70286C8DD0002A8E94CC4553 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF705D905E5FDD09B9A5803E70860E0 /* FontAwesome.swift */; };
+		1859113A28D674DBA366EF81366330C0 /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E0AE4FC2CCC9D61DDA0C5ABF37869C /* FontAwesomeView.swift */; };
+		1FCED785868A7ADAC5BEE5204C77D156 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
+		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
+		37B85F555A38364C44DB54684713A900 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F7FC4C0590A98E4A691DBE61621518 /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0978D3CCC7014DC51DEF132EC61F63DD /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54C9862AC652210733F21EBA2D034F28 /* Pods-myFUMC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 918DF0F2C26F4C0086C274EF878E1A45 /* Pods-myFUMC-dummy.m */; };
+		5C0B36CA70286C8DD0002A8E94CC4553 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96663820B13A0A31FB86EFDD52B1D77 /* FontAwesome.swift */; };
+		6A9913FA51F166E2BFA12623D5530EEF /* Pods-myFUMC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 510B585B985B1DA4F8DCC05F194F0D1D /* Pods-myFUMC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AF5B52CE8521B567A3F704308E51AD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
-		7DE3E62D329F26A90F380826B7460AA4 /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8DB2D55BBFD3C3AA70363F7EFD401BE0 /* FontAwesome.swift.bundle */; };
-		8A7325E4A3BB7412702B0662B8590DB1 /* Pods-myFUMC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 918DF0F2C26F4C0086C274EF878E1A45 /* Pods-myFUMC-dummy.m */; };
-		BED5EC9770C0ADD3B9A60A028F99F432 /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D620B3758E51423C055C8C9AD9688B6E /* FontAwesome.swift-dummy.m */; };
+		7DE3E62D329F26A90F380826B7460AA4 /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26EE7F756F696D9604BA8877E37C79CA /* FontAwesome.swift.bundle */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A79EF628B9810C19F22BDDE95C27F9BC /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED5EC9770C0ADD3B9A60A028F99F432 /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A193F145545A40F0CF0E15FA453BDEA /* FontAwesome.swift-dummy.m */; };
 		C2BB6143A772EDE7F6C338C2349EC210 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E317D90744761F406E685BC46589A /* CoreText.framework */; };
-		C2BF28F2B3085B993F1D424DF9A6ABBB /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184554D61F2FA3FA20364271C01D37F /* Enum.swift */; };
-		EE9AC6E374D87AE1645F758EC6DD3D34 /* Pods-myFUMC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 510B585B985B1DA4F8DCC05F194F0D1D /* Pods-myFUMC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2BF28F2B3085B993F1D424DF9A6ABBB /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4045E6AB7C6B4BB96F157880398B158 /* Enum.swift */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 97CD0D385903FBAC8E7F6250989AF5AD /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF03F57AA23234D3F6D69548CF0FB29 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDAAF26BCECB96D123AB94D13F5B76 /* GoogleToolboxForMac-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2A5A744EE787FC4AE74797F5F0ED75A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C74D47B051BF84CA30E0723F127F42AD;
+			remoteInfo = FontAwesome.swift;
+		};
+		49B6A388F826301B0099B342321B1657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
 		E94380D2D52F1407587989E526482389 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -30,42 +50,49 @@
 			remoteGlobalIDString = 77979430716929ED71E6E262A9F9A184;
 			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
 		};
-		FF29B2908268ADC2A56ACB5307761BF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C74D47B051BF84CA30E0723F127F42AD;
-			remoteInfo = FontAwesome.swift;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CB88546B17539E9552BBAE1D30FF268 /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
-		2467CEBEFCAA0D1255221F83DFC075EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0978D3CCC7014DC51DEF132EC61F63DD /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		0FF03F57AA23234D3F6D69548CF0FB29 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		16DA21ED3AA9E39816046ADB47CD2799 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesome_swift.framework; path = FontAwesome.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ACF59646FBAB646BC8C46FFEA8CEE4A /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		1B33747E2D96219B5934730A07BD74DE /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesome/FontAwesome.otf; sourceTree = "<group>"; };
+		237AD6C2AFC6B075B6FD56398F25A94E /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		23923180EEFA195B28C0FA5744803A54 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EE7F756F696D9604BA8877E37C79CA /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FontAwesome.swift.bundle; path = FontAwesome.swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		282E317D90744761F406E685BC46589A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		2C76CEDDFDB7349EBB8F904488A4C5C8 /* Pods-myFUMC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-myFUMC.modulemap"; sourceTree = "<group>"; };
-		3577B1FCECC6A9CE495B87F864B16912 /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
-		3CB8DF1487534236349AFF43A3A406F9 /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
-		4184554D61F2FA3FA20364271C01D37F /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
+		343B726E260ADAE73599BE8A062F0139 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		3A193F145545A40F0CF0E15FA453BDEA /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
+		443004EC35966EBD0DE4E9B61C1842AE /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		4CC12966213338DC45B1F59EA61BABF8 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		4CCDAAF26BCECB96D123AB94D13F5B76 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
 		510B585B985B1DA4F8DCC05F194F0D1D /* Pods-myFUMC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myFUMC-umbrella.h"; sourceTree = "<group>"; };
+		5476364BBEAA108C97C83D995E791C5A /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
+		5ECE6D6552A1EF845E00021DBD62D5D1 /* ResourceBundle-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		63793849A30C2A35C3722D2D3DBE4142 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		66CC2434D2C84D11F15FFA81D283BC72 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		6A1956EB605CE361FAA95CCF12741AC4 /* Pods-myFUMC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFUMC.release.xcconfig"; sourceTree = "<group>"; };
+		6CBB30F8F04544197F371E7C97F04248 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E359EBF2FA65D810EA00CF068F3F90D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8950D993E9700C1A7465E694249B4C77 /* Pods-myFUMC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myFUMC-frameworks.sh"; sourceTree = "<group>"; };
-		8DB2D55BBFD3C3AA70363F7EFD401BE0 /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FontAwesome.swift.bundle; path = FontAwesome.swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		918DF0F2C26F4C0086C274EF878E1A45 /* Pods-myFUMC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myFUMC-dummy.m"; sourceTree = "<group>"; };
-		91F271F74D70350F46EA5346707A2474 /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B073008039179E6E0B401D35433E28AC /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesome_swift.framework; path = FontAwesome.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B290F07C4B25314616107EC9A0E3D4BC /* ResourceBundle-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		97CD0D385903FBAC8E7F6250989AF5AD /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		A79EF628B9810C19F22BDDE95C27F9BC /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		A7F7FC4C0590A98E4A691DBE61621518 /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
+		AAFFDBECC26DDCB752C2FB2CD38E227F /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
 		B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CCF705D905E5FDD09B9A5803E70860E0 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
+		B96663820B13A0A31FB86EFDD52B1D77 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
 		D1BA1D71F3B85092C60EA7001E8504E0 /* Pods-myFUMC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFUMC.debug.xcconfig"; sourceTree = "<group>"; };
-		D620B3758E51423C055C8C9AD9688B6E /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
+		D2E0AE4FC2CCC9D61DDA0C5ABF37869C /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
+		DF8479030B29C69792176322C29C26E2 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
+		E4045E6AB7C6B4BB96F157880398B158 /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
 		E415F674BE28406A40E756CDAB510324 /* Pods-myFUMC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myFUMC-acknowledgements.plist"; sourceTree = "<group>"; };
-		E751643369496E4CD4EDF66244DD1BD9 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
-		E9D3220BF2A58713D1EAE88820BEDC6A /* Pods_myFUMC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myFUMC.framework; path = "Pods-myFUMC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F42506C7C75E4B10CFB210B4292DA4E3 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesome/FontAwesome.otf; sourceTree = "<group>"; };
+		E716CBC3018A077F9D5C179406F9E649 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22FE41C2BA3A3B5CBFEA627464F2499 /* Pods_myFUMC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myFUMC.framework; path = "Pods-myFUMC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4A24B0FF5AE2851C46DA7B7333427C /* Pods-myFUMC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myFUMC-resources.sh"; sourceTree = "<group>"; };
 		FF2A4362C7E13CAFB99D83074D86E7EB /* Pods-myFUMC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myFUMC-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,11 +115,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AAEB30167C1A962E39A334613A3B41B /* Frameworks */ = {
+		9A4F31F9F54BEC58C3C97E31208D92E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1363CB92EFD814A9119D2EAA9F158EE1 /* Foundation.framework in Frameworks */,
+				1FCED785868A7ADAC5BEE5204C77D156 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +142,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		13D1663FA739B4A169ED65B3800F9421 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1ACF59646FBAB646BC8C46FFEA8CEE4A /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		160759646DCCC61DA3ADA3A9B51F2C17 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5476364BBEAA108C97C83D995E791C5A /* FontAwesome.swift.modulemap */,
+				DF8479030B29C69792176322C29C26E2 /* FontAwesome.swift.xcconfig */,
+				3A193F145545A40F0CF0E15FA453BDEA /* FontAwesome.swift-dummy.m */,
+				237AD6C2AFC6B075B6FD56398F25A94E /* FontAwesome.swift-prefix.pch */,
+				A7F7FC4C0590A98E4A691DBE61621518 /* FontAwesome.swift-umbrella.h */,
+				6CBB30F8F04544197F371E7C97F04248 /* Info.plist */,
+				5ECE6D6552A1EF845E00021DBD62D5D1 /* ResourceBundle-FontAwesome.swift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesome.swift";
+			sourceTree = "<group>";
+		};
+		26C26B1CA9D3FF3C9A552AACD237CB4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26EE7F756F696D9604BA8877E37C79CA /* FontAwesome.swift.bundle */,
+				16DA21ED3AA9E39816046ADB47CD2799 /* FontAwesome_swift.framework */,
+				23923180EEFA195B28C0FA5744803A54 /* GoogleToolboxForMac.framework */,
+				F22FE41C2BA3A3B5CBFEA627464F2499 /* Pods_myFUMC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F310BA8DEE9DF4BC16FF2D09584D436 /* FontAwesome.swift */ = {
+			isa = PBXGroup;
+			children = (
+				E4045E6AB7C6B4BB96F157880398B158 /* Enum.swift */,
+				B96663820B13A0A31FB86EFDD52B1D77 /* FontAwesome.swift */,
+				D2E0AE4FC2CCC9D61DDA0C5ABF37869C /* FontAwesomeView.swift */,
+				5AF16962985A32770998435C36884C5B /* Resources */,
+				160759646DCCC61DA3ADA3A9B51F2C17 /* Support Files */,
+			);
+			name = FontAwesome.swift;
+			path = FontAwesome.swift;
+			sourceTree = "<group>";
+		};
 		3587588751A8A6B53D9C05B2DC18428D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +197,31 @@
 				27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		35D95CD577DD89882BA768112C534AD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66CC2434D2C84D11F15FFA81D283BC72 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C159C159DB0A585CC33D4425DAE9D9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				343B726E260ADAE73599BE8A062F0139 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F41D7714F90BFD754AEA1D6022C8705 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				3C159C159DB0A585CC33D4425DAE9D9C /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
 		500944345857AFCE951F31DD882F5E2F /* Pods-myFUMC */ = {
@@ -135,25 +242,56 @@
 			path = "Target Support Files/Pods-myFUMC";
 			sourceTree = "<group>";
 		};
-		5B6E7B87EA48D2553333F40ADC53BB7A /* Pods */ = {
+		580FA664F67C580AA192378AF8F150C7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				77A3070CF9AFE13E5182F616FA483D4A /* FontAwesome.swift */,
+				AAFFDBECC26DDCB752C2FB2CD38E227F /* GoogleToolboxForMac.modulemap */,
+				63793849A30C2A35C3722D2D3DBE4142 /* GoogleToolboxForMac.xcconfig */,
+				4CCDAAF26BCECB96D123AB94D13F5B76 /* GoogleToolboxForMac-dummy.m */,
+				4CC12966213338DC45B1F59EA61BABF8 /* GoogleToolboxForMac-prefix.pch */,
+				A79EF628B9810C19F22BDDE95C27F9BC /* GoogleToolboxForMac-umbrella.h */,
+				E716CBC3018A077F9D5C179406F9E649 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		58869CEDAF4367AC5BFD6FDEFF9A18BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				443004EC35966EBD0DE4E9B61C1842AE /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AF16962985A32770998435C36884C5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B33747E2D96219B5934730A07BD74DE /* FontAwesome.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6339FF42BFE05B8EFB3357A3CB9ACE51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1D2E2CC0034B7E56239F00153ED048A /* Firebase */,
+				CAA59534B2B22A5D1D3B1CB4F6A6DBE8 /* FirebaseAnalytics */,
+				3F41D7714F90BFD754AEA1D6022C8705 /* FirebaseCore */,
+				7368FC5E0C6EAB025D70AA934AF57E82 /* FirebaseInstanceID */,
+				2F310BA8DEE9DF4BC16FF2D09584D436 /* FontAwesome.swift */,
+				F91728894F8F6D7CA3E66CC9DA1CAD40 /* GoogleToolboxForMac */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		77A3070CF9AFE13E5182F616FA483D4A /* FontAwesome.swift */ = {
+		7368FC5E0C6EAB025D70AA934AF57E82 /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
-				4184554D61F2FA3FA20364271C01D37F /* Enum.swift */,
-				CCF705D905E5FDD09B9A5803E70860E0 /* FontAwesome.swift */,
-				91F271F74D70350F46EA5346707A2474 /* FontAwesomeView.swift */,
-				B47A97F8EF9B33C309C9D42ADA6ED48C /* Resources */,
-				8C791BC092E15C47CDC150C4789396EA /* Support Files */,
+				35D95CD577DD89882BA768112C534AD3 /* Frameworks */,
 			);
-			name = FontAwesome.swift;
-			path = FontAwesome.swift;
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
 		791BE58C713E5F046848B04AF2CD878C /* Targets Support Files */ = {
@@ -169,43 +307,56 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				5B6E7B87EA48D2553333F40ADC53BB7A /* Pods */,
-				AEF876E2929C69B1717E62FBAE731569 /* Products */,
+				6339FF42BFE05B8EFB3357A3CB9ACE51 /* Pods */,
+				26C26B1CA9D3FF3C9A552AACD237CB4F /* Products */,
 				791BE58C713E5F046848B04AF2CD878C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8C791BC092E15C47CDC150C4789396EA /* Support Files */ = {
+		81F0A6A7E36BFE946E9AA9855532541E /* NSData+zlib */ = {
 			isa = PBXGroup;
 			children = (
-				3577B1FCECC6A9CE495B87F864B16912 /* FontAwesome.swift.modulemap */,
-				E751643369496E4CD4EDF66244DD1BD9 /* FontAwesome.swift.xcconfig */,
-				D620B3758E51423C055C8C9AD9688B6E /* FontAwesome.swift-dummy.m */,
-				1CB88546B17539E9552BBAE1D30FF268 /* FontAwesome.swift-prefix.pch */,
-				3CB8DF1487534236349AFF43A3A406F9 /* FontAwesome.swift-umbrella.h */,
-				2467CEBEFCAA0D1255221F83DFC075EA /* Info.plist */,
-				B290F07C4B25314616107EC9A0E3D4BC /* ResourceBundle-FontAwesome.swift-Info.plist */,
+				97CD0D385903FBAC8E7F6250989AF5AD /* GTMNSData+zlib.h */,
+				0FF03F57AA23234D3F6D69548CF0FB29 /* GTMNSData+zlib.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FontAwesome.swift";
+			name = "NSData+zlib";
 			sourceTree = "<group>";
 		};
-		AEF876E2929C69B1717E62FBAE731569 /* Products */ = {
+		C1D2E2CC0034B7E56239F00153ED048A /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				8DB2D55BBFD3C3AA70363F7EFD401BE0 /* FontAwesome.swift.bundle */,
-				B073008039179E6E0B401D35433E28AC /* FontAwesome_swift.framework */,
-				E9D3220BF2A58713D1EAE88820BEDC6A /* Pods_myFUMC.framework */,
+				13D1663FA739B4A169ED65B3800F9421 /* Core */,
 			);
-			name = Products;
+			name = Firebase;
+			path = Firebase;
 			sourceTree = "<group>";
 		};
-		B47A97F8EF9B33C309C9D42ADA6ED48C /* Resources */ = {
+		CAA59534B2B22A5D1D3B1CB4F6A6DBE8 /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				F42506C7C75E4B10CFB210B4292DA4E3 /* FontAwesome.otf */,
+				58869CEDAF4367AC5BFD6FDEFF9A18BC /* Frameworks */,
 			);
-			name = Resources;
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		F22C4FCD22720E74183597BF389C7983 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				0978D3CCC7014DC51DEF132EC61F63DD /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		F91728894F8F6D7CA3E66CC9DA1CAD40 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				F22C4FCD22720E74183597BF389C7983 /* Defines */,
+				81F0A6A7E36BFE946E9AA9855532541E /* NSData+zlib */,
+				580FA664F67C580AA192378AF8F150C7 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,17 +370,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50261C217BDF3C5A29F4F191B426BFBC /* Headers */ = {
+		FB4456EF894C7652B1DCD4006F64FECA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE9AC6E374D87AE1645F758EC6DD3D34 /* Pods-myFUMC-umbrella.h in Headers */,
+				6A9913FA51F166E2BFA12623D5530EEF /* Pods-myFUMC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 23923180EEFA195B28C0FA5744803A54 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		77979430716929ED71E6E262A9F9A184 /* FontAwesome.swift-FontAwesome.swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05DE0A0286203DCFAEEB530E5341C739 /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */;
@@ -244,26 +422,8 @@
 			);
 			name = "FontAwesome.swift-FontAwesome.swift";
 			productName = "FontAwesome.swift-FontAwesome.swift";
-			productReference = 8DB2D55BBFD3C3AA70363F7EFD401BE0 /* FontAwesome.swift.bundle */;
+			productReference = 26EE7F756F696D9604BA8877E37C79CA /* FontAwesome.swift.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		B2D75EA4E99F8D8EF478884997BD66D9 /* Pods-myFUMC */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 357E4E7CB5FE142FA06C41F538DEF64E /* Build configuration list for PBXNativeTarget "Pods-myFUMC" */;
-			buildPhases = (
-				D0EAF15B3E31BA4A411159DC2BDC78DE /* Sources */,
-				9AAEB30167C1A962E39A334613A3B41B /* Frameworks */,
-				50261C217BDF3C5A29F4F191B426BFBC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5560EFE15BCF74607D0E9B89224D39DC /* PBXTargetDependency */,
-			);
-			name = "Pods-myFUMC";
-			productName = "Pods-myFUMC";
-			productReference = E9D3220BF2A58713D1EAE88820BEDC6A /* Pods_myFUMC.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		C74D47B051BF84CA30E0723F127F42AD /* FontAwesome.swift */ = {
 			isa = PBXNativeTarget;
@@ -281,7 +441,26 @@
 			);
 			name = FontAwesome.swift;
 			productName = FontAwesome.swift;
-			productReference = B073008039179E6E0B401D35433E28AC /* FontAwesome_swift.framework */;
+			productReference = 16DA21ED3AA9E39816046ADB47CD2799 /* FontAwesome_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F13EFB77FC19566A3544D5986DC7E9EC /* Pods-myFUMC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9629C9ECECED7D24BAB13E38C4A7758E /* Build configuration list for PBXNativeTarget "Pods-myFUMC" */;
+			buildPhases = (
+				0EC478D0E115652DD9AF5857B6560CC3 /* Sources */,
+				9A4F31F9F54BEC58C3C97E31208D92E1 /* Frameworks */,
+				FB4456EF894C7652B1DCD4006F64FECA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BDC351748D5F1FD53410E6A7BD1235 /* PBXTargetDependency */,
+				565FB5C168DEB4789C47B7D24DA9E381 /* PBXTargetDependency */,
+			);
+			name = "Pods-myFUMC";
+			productName = "Pods-myFUMC";
+			productReference = F22FE41C2BA3A3B5CBFEA627464F2499 /* Pods_myFUMC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -301,13 +480,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = AEF876E2929C69B1717E62FBAE731569 /* Products */;
+			productRefGroup = 26C26B1CA9D3FF3C9A552AACD237CB4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C74D47B051BF84CA30E0723F127F42AD /* FontAwesome.swift */,
 				77979430716929ED71E6E262A9F9A184 /* FontAwesome.swift-FontAwesome.swift */,
-				B2D75EA4E99F8D8EF478884997BD66D9 /* Pods-myFUMC */,
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				F13EFB77FC19566A3544D5986DC7E9EC /* Pods-myFUMC */,
 			);
 		};
 /* End PBXProject section */
@@ -332,18 +512,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0EC478D0E115652DD9AF5857B6560CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C9862AC652210733F21EBA2D034F28 /* Pods-myFUMC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6D577A16310B802EF8BE2A9513E14BFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0EAF15B3E31BA4A411159DC2BDC78DE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A7325E4A3BB7412702B0662B8590DB1 /* Pods-myFUMC-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,11 +550,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5560EFE15BCF74607D0E9B89224D39DC /* PBXTargetDependency */ = {
+		01BDC351748D5F1FD53410E6A7BD1235 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FontAwesome.swift;
 			target = C74D47B051BF84CA30E0723F127F42AD /* FontAwesome.swift */;
-			targetProxy = FF29B2908268ADC2A56ACB5307761BF2 /* PBXContainerItemProxy */;
+			targetProxy = 2A5A744EE787FC4AE74797F5F0ED75A1 /* PBXContainerItemProxy */;
+		};
+		565FB5C168DEB4789C47B7D24DA9E381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 49B6A388F826301B0099B342321B1657 /* PBXContainerItemProxy */;
 		};
 		FD8376A9A7ABA0F3076D1132CBD52C61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -376,9 +571,45 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0FCD76A4517D5AE9DCA2CC171F084668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BA1D71F3B85092C60EA7001E8504E0 /* Pods-myFUMC.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myFUMC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFUMC/Pods-myFUMC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_myFUMC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		14E2B2BD964F7A954D43C0C2677DD4EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E751643369496E4CD4EDF66244DD1BD9 /* FontAwesome.swift.xcconfig */;
+			baseConfigurationReference = DF8479030B29C69792176322C29C26E2 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -433,44 +664,9 @@
 			};
 			name = Release;
 		};
-		352EF63E8777DDD8C368A2247AEBA857 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A1956EB605CE361FAA95CCF12741AC4 /* Pods-myFUMC.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-myFUMC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-myFUMC/Pods-myFUMC.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_myFUMC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		7009D12853F280F86C6B5814C13FDF51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E751643369496E4CD4EDF66244DD1BD9 /* FontAwesome.swift.xcconfig */;
+			baseConfigurationReference = DF8479030B29C69792176322C29C26E2 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -502,7 +698,7 @@
 		};
 		79EFE2105AEE2B5047BA227012B0948C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E751643369496E4CD4EDF66244DD1BD9 /* FontAwesome.swift.xcconfig */;
+			baseConfigurationReference = DF8479030B29C69792176322C29C26E2 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -519,7 +715,7 @@
 		};
 		9EACE6C4757D243F23467BD3B8E25E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E751643369496E4CD4EDF66244DD1BD9 /* FontAwesome.swift.xcconfig */;
+			baseConfigurationReference = DF8479030B29C69792176322C29C26E2 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -594,15 +790,15 @@
 			};
 			name = Debug;
 		};
-		E83E81527BA01A39BA89F49854E593F0 /* Debug */ = {
+		D300A94221E8D8DA511638E630E36806 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1BA1D71F3B85092C60EA7001E8504E0 /* Pods-myFUMC.debug.xcconfig */;
+			baseConfigurationReference = 6A1956EB605CE361FAA95CCF12741AC4 /* Pods-myFUMC.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -615,7 +811,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-myFUMC/Pods-myFUMC.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -623,12 +819,75 @@
 				PRODUCT_NAME = Pods_myFUMC;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D60CD877A708870E2BE96B83BA32F883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63793849A30C2A35C3722D2D3DBE4142 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F066921CBDBDB5F45795E50FBC5AC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63793849A30C2A35C3722D2D3DBE4142 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -651,20 +910,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		357E4E7CB5FE142FA06C41F538DEF64E /* Build configuration list for PBXNativeTarget "Pods-myFUMC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E83E81527BA01A39BA89F49854E593F0 /* Debug */,
-				352EF63E8777DDD8C368A2247AEBA857 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		366D49D7FB8D1C96D8503A28A53F60BD /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EACE6C4757D243F23467BD3B8E25E4A /* Debug */,
 				7009D12853F280F86C6B5814C13FDF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9629C9ECECED7D24BAB13E38C4A7758E /* Build configuration list for PBXNativeTarget "Pods-myFUMC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FCD76A4517D5AE9DCA2CC171F084668 /* Debug */,
+				D300A94221E8D8DA511638E630E36806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60CD877A708870E2BE96B83BA32F883 /* Debug */,
+				F066921CBDBDB5F45795E50FBC5AC972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
