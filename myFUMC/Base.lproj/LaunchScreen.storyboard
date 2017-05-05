@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,28 +20,41 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="qpU-dv-Xil">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="qpU-dv-Xil">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="FS8-jK-Hzc">
-                                <rect key="frame" x="24" y="621" width="374" height="83"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header.png" translatesAutoresizingMaskIntoConstraints="NO" id="FS8-jK-Hzc">
+                                <rect key="frame" x="22" y="499" width="275" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FS8-jK-Hzc" secondAttribute="height" multiplier="301:67" id="2Tx-JU-cHQ"/>
+                                    <constraint firstAttribute="width" secondItem="FS8-jK-Hzc" secondAttribute="height" multiplier="715:159" id="cfU-ny-gWf"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="FS8-jK-Hzc" secondAttribute="bottom" constant="10" id="77K-Db-X5a"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FS8-jK-Hzc" secondAttribute="trailing" constant="10" id="NNI-YS-gii"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="FS8-jK-Hzc" secondAttribute="bottom" constant="8" id="OgE-1K-Hv6"/>
+                            <constraint firstItem="FS8-jK-Hzc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Sny-wt-JHq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FS8-jK-Hzc" secondAttribute="trailing" constant="7" id="XMT-Lg-V1n"/>
+                            <constraint firstItem="FS8-jK-Hzc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="6" id="a0G-QM-sKI"/>
+                            <constraint firstItem="FS8-jK-Hzc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="10" id="dut-cg-HG1"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="50.625" y="373.75"/>
+            <point key="canvasLocation" x="48.75" y="372.5"/>
         </scene>
     </scenes>
     <resources>
-        <image name="header" width="618" height="136"/>
-        <image name="login" width="414" height="736"/>
+        <image name="header.png" width="1855" height="408"/>
+        <image name="login" width="375" height="667"/>
     </resources>
 </document>
