@@ -11,5 +11,6 @@ target 'myFUMC' do
   pod 'Firebase/Storage'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
-  pod 'JSQMessagesViewController'
+  pod 'Firebase/Messaging'
+  pod 'PDFReader'
 end

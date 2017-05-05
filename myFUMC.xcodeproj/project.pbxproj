@@ -22,6 +22,8 @@
 		4CCC561D1EBCD2BE00275F62 /* 3x-phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC56171EBCD2BE00275F62 /* 3x-phone.png */; };
 		4CCC56231EBCD9E700275F62 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC56221EBCD9E700275F62 /* header.png */; };
 		4CCC56251EBCE19200275F62 /* livestream.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC56241EBCE19200275F62 /* livestream.png */; };
+		4CF62DC01EBD00FC006CEB4B /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF62DBF1EBD00FC006CEB4B /* UserNotifications.framework */; };
+		4CF62DC51EBD0BFF006CEB4B /* NewsletterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF62DC41EBD0BFF006CEB4B /* NewsletterViewController.swift */; };
 		8C4C1ABA93C3F22955FB6911 /* Pods_myFUMC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B0C7294F737C6C5996FB31 /* Pods_myFUMC.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,9 @@
 		4CCC56171EBCD2BE00275F62 /* 3x-phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3x-phone.png"; sourceTree = "<group>"; };
 		4CCC56221EBCD9E700275F62 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
 		4CCC56241EBCE19200275F62 /* livestream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = livestream.png; sourceTree = "<group>"; };
+		4CF62DBF1EBD00FC006CEB4B /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		4CF62DC11EBD01A2006CEB4B /* myFUMC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = myFUMC.entitlements; sourceTree = "<group>"; };
+		4CF62DC41EBD0BFF006CEB4B /* NewsletterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsletterViewController.swift; sourceTree = "<group>"; };
 		6B65741FD00D546AE235D5A5 /* Pods-myFUMC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myFUMC.release.xcconfig"; path = "Pods/Target Support Files/Pods-myFUMC/Pods-myFUMC.release.xcconfig"; sourceTree = "<group>"; };
 		D7B0C7294F737C6C5996FB31 /* Pods_myFUMC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myFUMC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -53,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF62DC01EBD00FC006CEB4B /* UserNotifications.framework in Frameworks */,
 				8C4C1ABA93C3F22955FB6911 /* Pods_myFUMC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,8 +87,10 @@
 		4C5C851A1EBCBB4C0069007B /* myFUMC */ = {
 			isa = PBXGroup;
 			children = (
+				4CF62DC11EBD01A2006CEB4B /* myFUMC.entitlements */,
 				4CCC56111EBCD2AD00275F62 /* New Group */,
 				4C5C851B1EBCBB4C0069007B /* AppDelegate.swift */,
+				4CF62DC41EBD0BFF006CEB4B /* NewsletterViewController.swift */,
 				4C5C851D1EBCBB4C0069007B /* FirstViewController.swift */,
 				4C5C851F1EBCBB4C0069007B /* SecondViewController.swift */,
 				4C5C85211EBCBB4C0069007B /* Main.storyboard */,
@@ -121,6 +129,7 @@
 		C55E593113C62E0AD3987226 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4CF62DBF1EBD00FC006CEB4B /* UserNotifications.framework */,
 				D7B0C7294F737C6C5996FB31 /* Pods_myFUMC.framework */,
 			);
 			name = Frameworks;
@@ -163,6 +172,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = AT3759572L;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -260,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5C85201EBCBB4C0069007B /* SecondViewController.swift in Sources */,
+				4CF62DC51EBD0BFF006CEB4B /* NewsletterViewController.swift in Sources */,
 				4C5C851C1EBCBB4C0069007B /* AppDelegate.swift in Sources */,
 				4C5C851E1EBCBB4C0069007B /* FirstViewController.swift in Sources */,
 			);
@@ -387,11 +402,14 @@
 			baseConfigurationReference = 14DBF50B4A5A8B677DD3FD78 /* Pods-myFUMC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = myFUMC/myFUMC.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = AT3759572L;
 				INFOPLIST_FILE = myFUMC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.fumcmhnc.myFUMC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -402,11 +420,14 @@
 			baseConfigurationReference = 6B65741FD00D546AE235D5A5 /* Pods-myFUMC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = myFUMC/myFUMC.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = AT3759572L;
 				INFOPLIST_FILE = myFUMC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.fumcmhnc.myFUMC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

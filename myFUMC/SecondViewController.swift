@@ -15,7 +15,7 @@ class SecondViewController: UIViewController {
     
     @IBAction func loadStream(_ sender: Any) {
         
-        guard let url = URL(string: "hhttp://64.137.185.248:8081/fumcmhnc/live/playlist.m3u8") else {
+        guard let url = URL(string: "http://64.137.185.248:8081/fumcmhnc/live/playlist.m3u8") else {
             return
         }
         // Create an AVPlayer, passing it the HTTP Live Streaming URL.
